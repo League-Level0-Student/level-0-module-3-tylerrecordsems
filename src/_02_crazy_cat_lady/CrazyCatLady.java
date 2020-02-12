@@ -3,13 +3,29 @@
 
 package _02_crazy_cat_lady;
 
+import java.awt.Color;
 import java.net.URI;
+
+import javax.swing.JOptionPane;
 
 public class CrazyCatLady {
 	public static void main(String[] args) {
 		// 1. Ask the user how many cats they have
+		String cat=JOptionPane.showInputDialog(null, "How many cats do you have");
+		
+		int catz = Integer.parseInt(cat);
+		
+if (catz >= 3) {
+	JOptionPane.showInputDialog(null, "Your a crazy cat lady");
+}
+	else if(catz < 3&& catz > 0) {
+	playVideo(url);
+	}
 
-		// 2. Convert their answer into an int
+	else if(catz ==0) {
+		playVideo(https://www.youtube.com/watch?v=oj_yLBltPE8);
+		}
+	// 2. Convert their answer into an int
 
 		// 3. If they have 3 or more cats, tell them they are a crazy cat lady
 
@@ -30,3 +46,4 @@ public class CrazyCatLady {
 
 }
 
+}
