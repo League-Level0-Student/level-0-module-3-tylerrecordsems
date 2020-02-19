@@ -16,14 +16,14 @@ public class CrazyCatLady {
 		int catz = Integer.parseInt(cat);
 		
 if (catz >= 3) {
-	JOptionPane.showInputDialog(null, "Your a crazy cat lady");
+	JOptionPane.showMessageDialog(null, "Your a crazy cat lady");
 }
 	else if(catz < 3&& catz > 0) {
-	playVideo(url);
+playVideo("https://www.youtube.com/watch?v=oj_yLBltPE8");
 	}
 
 	else if(catz ==0) {
-		playVideo(https://www.youtube.com/watch?v=oj_yLBltPE8);
+		playVideo("https://www.youtube.com/watch?v=hY7m5jjJ9mM");
 		}
 	// 2. Convert their answer into an int
 
@@ -46,4 +46,3 @@ if (catz >= 3) {
 
 }
 
-}
