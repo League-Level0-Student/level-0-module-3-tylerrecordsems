@@ -17,16 +17,16 @@ public static void main(String[] args) {
 		
 		
 		if (R.equalsIgnoreCase("Yes")) {
-			JOptionPane.showMessageDialog(null, "Change somthing");
+			JOptionPane.showMessageDialog(null, "Change something");
+		}else {
+		
+			JOptionPane.showMessageDialog(null,"Keep doing whatever you are doing");
+		
+		
+		
+		
+		
 		}
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
