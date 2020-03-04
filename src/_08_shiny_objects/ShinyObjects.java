@@ -19,11 +19,11 @@ public class ShinyObjects {
 		int B = Integer.parseInt(A);
 		for (int i = 0; i < B; i++) {
 
-}
+
 		// 1. Call the method below
 playMisterZee();
 	}
-
+	}
 	public static void playMisterZee() {
 		try {
 			AudioClip sound = JApplet.newAudioClip(ShinyObjects.class.getResource("shiny-objects.wav"));
