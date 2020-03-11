@@ -3,9 +3,11 @@ void draw() {
 Then put his head on using drawBeeFace(x,y)
 Use Modulo to make the colors alternate 
 */
+drawBeeFace(5,8);
 }
 
 void drawFlower(int x, int y) {
+
      noStroke();
      translate(x, y);
      // draw 5 petals, rotating after each one
@@ -18,7 +20,8 @@ void drawFlower(int x, int y) {
      ellipse(0, 0, 50, 50);
 } 
 void drawBeeFace(int BeeFaceX, int BeeFaceY) {
-     noStroke();
+   
+  noStroke();
      fill(0, 0, 0);
      stroke(1);
      strokeWeight(5);
